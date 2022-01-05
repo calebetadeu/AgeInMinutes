@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULE SUA"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDADE"
+        android:padding="10dp"
+        android:background="@color/ageTextBackgroundColor"
+        android:textColor="#FFFF"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EM MINUTOS"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:text="SELECIONE A DATA"
+        android:textColor="#433737"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Nascimento"
+        android:textColor="@color/textGray"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade em Meses"
+
+        android:textColor="@color/textGray"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/selectedMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade em Minutos"
+
+        android:textColor="@color/textGray"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvSelectedInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yello200">#FFA938</color>
+    <color name="yello300">#FFA938</color>
+    <color name="redAccent">#D81B60</color>
+    <color name="textColor">#844046</color>
+    <color name="white">#ffff</color>
+    <color name="backgroundColor">#FEF1E0</color>
+    <color name="ageTextBackgroundColor" > #c846DCE0 </color>
+    <color name="textGray">#b7b7b7</color>
+</resources>
